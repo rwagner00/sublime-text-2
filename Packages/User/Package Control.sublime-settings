@@ -1,0 +1,17 @@
+{
+	"auto_upgrade_last_run": 1352220505,
+	"installed_packages":
+	[
+		"Alignment",
+		"BracketHighlighter",
+		"DocBlockr",
+		"Drupal Snippets",
+		"Package Control",
+		"Sass",
+		"SideBarEnhancements"
+	],
+	"repositories":
+	[
+		"https://github.com/facelessuser/BracketHighlighter"
+	]
+}

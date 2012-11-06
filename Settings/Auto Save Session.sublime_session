@@ -1,0 +1,911 @@
+{
+	"folder_history":
+	[
+		"/home/rwagner/web/entrefood",
+		"/home/rwagner/web/allergens_bak",
+		"/home/rwagner/Downloads/Sublime Text 2"
+	],
+	"last_window_id": 7,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"search",
+						"search-info"
+					],
+					[
+						"font-",
+						"font-style"
+					],
+					[
+						"content",
+						"content_attributes_array"
+					],
+					[
+						"title",
+						"title_attributes_array"
+					],
+					[
+						"class",
+						"classes_array"
+					],
+					[
+						"info",
+						"info_split"
+					],
+					[
+						"padin",
+						"padding-bottom"
+					],
+					[
+						"min",
+						"min-width"
+					],
+					[
+						"backgrou",
+						"background-color"
+					],
+					[
+						"hook_block_",
+						"hook_block_view	hook_block_view"
+					],
+					[
+						"book_node",
+						"book_node_load	book_node_load"
+					],
+					[
+						"node_lo",
+						"node_load_multiple	node_load_multiple"
+					],
+					[
+						"hook_node",
+						"hook_node_access	hook_node_access"
+					]
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"selected_items":
+				[
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"pack list",
+						"Package Control: List Packages"
+					],
+					[
+						"convert ta",
+						"Indentation: Convert to Spaces"
+					],
+					[
+						"rever",
+						"File: Revert"
+					],
+					[
+						"dowhi",
+						"Snippet: do … while …"
+					],
+					[
+						"forea",
+						"Snippet: foreach …"
+					],
+					[
+						"bracket",
+						"Bracket Highlighter: Swap Brackets"
+					],
+					[
+						"hninsert",
+						"Snippet: h_node_insert"
+					],
+					[
+						"hninser	",
+						"Snippet: hook_node_insert"
+					],
+					[
+						"shninsert",
+						"Snippet: h_node_insert"
+					],
+					[
+						"hnload",
+						"Snippet: h_node_load"
+					],
+					[
+						"ssphp",
+						"Set Syntax: PHP"
+					],
+					[
+						"enable",
+						"Package Control: Enable Package"
+					],
+					[
+						"packa",
+						"Package Control: Disable Package"
+					],
+					[
+						"sass",
+						"Set Syntax: Sass"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: Remove Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"set ph",
+						"Set Syntax: PHP"
+					],
+					[
+						"disabl",
+						"Package Control: Disable Package"
+					],
+					[
+						"enabl",
+						"Package Control: Enable Package"
+					]
+				],
+				"width": 593.0
+			},
+			"console":
+			{
+				"height": 139.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/templates/node--recipe--teaser.tpl.php",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/templates/search-result.tpl.php",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/_search.scss",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/pages.scss",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/layouts/_search.scss",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/print.css",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/wireframes.scss",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/front-page.scss",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/flag.scss",
+				"/home/rwagner/web/entrefood/modules/search/search-results.tpl.php",
+				"/home/rwagner/web/entrefood/modules/search/search-result.tpl.php",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/templates/user-profile--featured-front-block.tpl.php",
+				"/home/rwagner/web/entrefood/sites/all/modules/contrib/superfish/superfish.module",
+				"/home/rwagner/web/entrefood/sites/all/libraries/superfish/supposition.js",
+				"/home/rwagner/web/entrefood/sites/all/modules/custom/featured_user/featured_user.module",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/layouts/responsive-sidebars.scss",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/blocks.scss",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/_recipe.scss",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/templates/node--recipe.tpl.php",
+				"/home/rwagner/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/templates/user-profile.tpl.php",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/_how-to.scss",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/_blog.scss",
+				"/home/rwagner/web/allergens_bak/sites/all/modules/allergens-custom/temp_module/temp_module.module",
+				"/home/rwagner/web/allergens_bak/sites/all/modules/allergens-custom/temp_module/temp_module.info",
+				"/home/rwagner/web/allergens_bak/sites/all/modules/custom/field encrypt/fieldencrypt.module",
+				"/home/rwagner/web/allergens_bak/sites/all/modules/custom/referral_form/referral_form.module",
+				"/home/rwagner/web/allergens_bak/sites/all/modules/allergens-custom/SBD Footer/footer.module",
+				"/home/rwagner/web/entrefood/sites/all/modules/custom/related_recipes/related_recipe.module",
+				"/home/rwagner/web/entrefood/sites/all/modules/custom/related_recipes/related_recipes.info",
+				"/home/rwagner/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/rwagner/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/templates/node--recipe--front-block.tpl.php",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/templates/node--video-stream--front-block.tpl.php",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/templates/field--field_ingredients_set--recipe.tpl.php"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"superfish_spp",
+					"superfish_spp_\nsuperfish_spp",
+					".first",
+					"field_calories",
+					"\\S\\{",
+					"\\S{",
+					":\\S",
+					"\\S\\{",
+					"\\S{",
+					":\\S",
+					".75em",
+					"tag",
+					"wrap",
+					"recipe",
+					"recipe\n\nrecipe",
+					"ingredients",
+					"ingredients\ningredients",
+					"field_ingredients_set",
+					"field_hidden_ingredients"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"nrteas",
+						"sites/all/themes/foodishi/templates/node--recipe--teaser.tpl.php"
+					],
+					[
+						"recipe.tpl",
+						"sites/all/themes/foodishi/templates/node--recipe.tpl.php"
+					],
+					[
+						"pag",
+						"sites/all/themes/foodishi/sass/pages.scss"
+					],
+					[
+						"pages.scs",
+						"sites/all/themes/foodishi/sass/pages.scss"
+					],
+					[
+						"page.scss",
+						"sites/all/themes/foodishi/sass/pages.scss"
+					],
+					[
+						"page.scs",
+						"sites/all/themes/foodishi/sass/front-page.scss"
+					],
+					[
+						"search-results",
+						"modules/search/search-results.tpl.php"
+					],
+					[
+						"search.tpl",
+						"modules/search/search-results.tpl.php"
+					],
+					[
+						"pages.sc",
+						"sites/all/themes/foodishi/sass/pages.scss"
+					],
+					[
+						"suppo",
+						"sites/all/libraries/superfish/supposition.js"
+					],
+					[
+						"featureduser",
+						"sites/all/modules/custom/featured_user/featured_user.module"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+					[
+						"",
+						"/home/rwagner/web/omegatest/test.sublime-project"
+					]
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 194.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"search",
+						"search-info"
+					],
+					[
+						"font-",
+						"font-style"
+					],
+					[
+						"content",
+						"content_attributes_array"
+					],
+					[
+						"title",
+						"title_attributes_array"
+					],
+					[
+						"class",
+						"classes_array"
+					],
+					[
+						"info",
+						"info_split"
+					],
+					[
+						"padin",
+						"padding-bottom"
+					],
+					[
+						"min",
+						"min-width"
+					],
+					[
+						"backgrou",
+						"background-color"
+					],
+					[
+						"hook_block_",
+						"hook_block_view	hook_block_view"
+					],
+					[
+						"book_node",
+						"book_node_load	book_node_load"
+					],
+					[
+						"node_lo",
+						"node_load_multiple	node_load_multiple"
+					],
+					[
+						"hook_node",
+						"hook_node_access	hook_node_access"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "sites/all/themes/foodishi/sass/pages.scss",
+					"settings":
+					{
+						"buffer_size": 11023,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "sites/all/themes/foodishi/templates/search-result.tpl.php",
+					"settings":
+					{
+						"buffer_size": 3317,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "sites/all/themes/foodishi/sass/_recipe.scss",
+					"settings":
+					{
+						"buffer_size": 3929,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "sites/all/themes/foodishi/templates/node--recipe.tpl.php",
+					"settings":
+					{
+						"buffer_size": 8847,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"selected_items":
+				[
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"pack list",
+						"Package Control: List Packages"
+					],
+					[
+						"convert ta",
+						"Indentation: Convert to Spaces"
+					],
+					[
+						"rever",
+						"File: Revert"
+					],
+					[
+						"dowhi",
+						"Snippet: do … while …"
+					],
+					[
+						"forea",
+						"Snippet: foreach …"
+					],
+					[
+						"bracket",
+						"Bracket Highlighter: Swap Brackets"
+					],
+					[
+						"hninsert",
+						"Snippet: h_node_insert"
+					],
+					[
+						"hninser	",
+						"Snippet: hook_node_insert"
+					],
+					[
+						"shninsert",
+						"Snippet: h_node_insert"
+					],
+					[
+						"hnload",
+						"Snippet: h_node_load"
+					],
+					[
+						"ssphp",
+						"Set Syntax: PHP"
+					],
+					[
+						"enable",
+						"Package Control: Enable Package"
+					],
+					[
+						"packa",
+						"Package Control: Disable Package"
+					],
+					[
+						"sass",
+						"Set Syntax: Sass"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: Remove Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"set ph",
+						"Set Syntax: PHP"
+					],
+					[
+						"disabl",
+						"Package Control: Disable Package"
+					],
+					[
+						"enabl",
+						"Package Control: Enable Package"
+					]
+				],
+				"width": 593.0
+			},
+			"console":
+			{
+				"height": 139.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/templates/node--recipe--teaser.tpl.php",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/templates/search-result.tpl.php",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/_search.scss",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/pages.scss",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/layouts/_search.scss",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/print.css",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/wireframes.scss",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/front-page.scss",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/flag.scss",
+				"/home/rwagner/web/entrefood/modules/search/search-results.tpl.php",
+				"/home/rwagner/web/entrefood/modules/search/search-result.tpl.php",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/templates/user-profile--featured-front-block.tpl.php",
+				"/home/rwagner/web/entrefood/sites/all/modules/contrib/superfish/superfish.module",
+				"/home/rwagner/web/entrefood/sites/all/libraries/superfish/supposition.js",
+				"/home/rwagner/web/entrefood/sites/all/modules/custom/featured_user/featured_user.module",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/layouts/responsive-sidebars.scss",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/blocks.scss",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/_recipe.scss",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/templates/node--recipe.tpl.php",
+				"/home/rwagner/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/templates/user-profile.tpl.php",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/_how-to.scss",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/_blog.scss",
+				"/home/rwagner/web/allergens_bak/sites/all/modules/allergens-custom/temp_module/temp_module.module",
+				"/home/rwagner/web/allergens_bak/sites/all/modules/allergens-custom/temp_module/temp_module.info",
+				"/home/rwagner/web/allergens_bak/sites/all/modules/custom/field encrypt/fieldencrypt.module",
+				"/home/rwagner/web/allergens_bak/sites/all/modules/custom/referral_form/referral_form.module",
+				"/home/rwagner/web/allergens_bak/sites/all/modules/allergens-custom/SBD Footer/footer.module",
+				"/home/rwagner/web/entrefood/sites/all/modules/custom/related_recipes/related_recipe.module",
+				"/home/rwagner/web/entrefood/sites/all/modules/custom/related_recipes/related_recipes.info",
+				"/home/rwagner/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/rwagner/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/templates/node--recipe--front-block.tpl.php",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/templates/node--video-stream--front-block.tpl.php",
+				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/templates/field--field_ingredients_set--recipe.tpl.php"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"superfish_spp",
+					"superfish_spp_\nsuperfish_spp",
+					".first",
+					"field_calories",
+					"\\S\\{",
+					"\\S{",
+					":\\S",
+					"\\S\\{",
+					"\\S{",
+					":\\S",
+					".75em",
+					"tag",
+					"wrap",
+					"recipe",
+					"recipe\n\nrecipe",
+					"ingredients",
+					"ingredients\ningredients",
+					"field_ingredients_set",
+					"field_hidden_ingredients"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "sites/all/themes/foodishi/sass/pages.scss",
+							"settings":
+							{
+								"buffer_size": 11023,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										9978,
+										9978
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 8989.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "sites/all/themes/foodishi/templates/search-result.tpl.php",
+							"settings":
+							{
+								"buffer_size": 3317,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "sites/all/themes/foodishi/sass/_recipe.scss",
+							"settings":
+							{
+								"buffer_size": 3929,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										426,
+										426
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 75.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "sites/all/themes/foodishi/templates/node--recipe.tpl.php",
+							"settings":
+							{
+								"buffer_size": 8847,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										6931,
+										6931
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 2230.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,1,0,0,0,187,110,827,590,3200,900",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"nrteas",
+						"sites/all/themes/foodishi/templates/node--recipe--teaser.tpl.php"
+					],
+					[
+						"recipe.tpl",
+						"sites/all/themes/foodishi/templates/node--recipe.tpl.php"
+					],
+					[
+						"pag",
+						"sites/all/themes/foodishi/sass/pages.scss"
+					],
+					[
+						"pages.scs",
+						"sites/all/themes/foodishi/sass/pages.scss"
+					],
+					[
+						"page.scss",
+						"sites/all/themes/foodishi/sass/pages.scss"
+					],
+					[
+						"page.scs",
+						"sites/all/themes/foodishi/sass/front-page.scss"
+					],
+					[
+						"search-results",
+						"modules/search/search-results.tpl.php"
+					],
+					[
+						"search.tpl",
+						"modules/search/search-results.tpl.php"
+					],
+					[
+						"pages.sc",
+						"sites/all/themes/foodishi/sass/pages.scss"
+					],
+					[
+						"suppo",
+						"sites/all/libraries/superfish/supposition.js"
+					],
+					[
+						"featureduser",
+						"sites/all/modules/custom/featured_user/featured_user.module"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+					[
+						"",
+						"/home/rwagner/web/omegatest/test.sublime-project"
+					]
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 194.0,
+			"status_bar_visible": true,
+			"window_id": 7,
+			"workspace_name": "/home/rwagner/web/entrefood/foodishi.sublime-project"
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/home/rwagner/web/entrefood/foodishi.sublime-project",
+			"/home/rwagner/web/omegatest/test.sublime-project"
+		]
+	}
+}
