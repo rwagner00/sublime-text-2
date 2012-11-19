@@ -1,14 +1,17 @@
 {
-	"auto_upgrade_last_run": 1352220505,
+	"auto_upgrade_last_run": 1353336080,
 	"installed_packages":
 	[
 		"Alignment",
+		"Auto Semi-Colon",
 		"BracketHighlighter",
 		"DocBlockr",
 		"Drupal Snippets",
+		"Emmet",
 		"Package Control",
 		"Sass",
-		"SideBarEnhancements"
+		"SideBarEnhancements",
+		"Sublimipsum"
 	],
 	"repositories":
 	[
