@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1353336080,
+	"auto_upgrade_last_run": 1353442552,
 	"installed_packages":
 	[
 		"Alignment",
@@ -8,10 +8,12 @@
 		"DocBlockr",
 		"Drupal Snippets",
 		"Emmet",
+		"Git",
 		"Package Control",
 		"Sass",
 		"SideBarEnhancements",
-		"Sublimipsum"
+		"Sublimipsum",
+		"Theme - Soda"
 	],
 	"repositories":
 	[

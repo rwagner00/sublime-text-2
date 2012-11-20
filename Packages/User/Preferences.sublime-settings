@@ -1,5 +1,7 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+  "theme": "Soda Dark.sublime-theme",
+  "soda_classic_tabs": true,
+	"color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
 	"font_size": 10,
 	"ignored_packages":
 	[

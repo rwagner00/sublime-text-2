@@ -1,6 +1,7 @@
 {
 	"folder_history":
 	[
+		"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme",
 		"/home/rwagner/web/spyderbytedesign",
 		"/home/rwagner/web/entrefood",
 		"/home/rwagner/web/allergens_bak",
@@ -493,6 +494,18 @@
 				"selected_items":
 				[
 					[
+						"block",
+						"block-title"
+					],
+					[
+						"fs",
+						"font-size"
+					],
+					[
+						"ml",
+						"ml:a	margin-left:auto"
+					],
+					[
 						"hi",
 						"hide"
 					],
@@ -539,10 +552,6 @@
 					[
 						"mr",
 						"mr	margin-right"
-					],
-					[
-						"ml",
-						"ml	margin-left"
 					],
 					[
 						"web",
@@ -697,26 +706,7 @@
 			"buffers":
 			[
 				{
-					"contents": "\n\n//All Team member pages & About Us Page\n.node-type-team-member, .page-node-1 {\n  .region-preface-second-inner {\n    border: none;\n    background-color: transparent;\n    @include box-shadow(none);\n  }\n}\n\n\n  //Just the block configuration\n#block-views-the-team-block {\n  margin-top: 15px;\n  margin-bottom: 0px;\n  header {\n    display: none;\n  }\n  .block-inner {\n    text-align: center;\n    .content {\n      display: inline-block;\n      zoom:1;\n      *display:inline;\n      .views-row {\n        float: left;\n        margin: 0 10px;\n        .node-title {\n          font-size: 110%;\n          margin-bottom: 0;\n        }\n        img {\n          max-width: 100%;\n          height: auto;\n        }\n      }\n    }\n  }\n}\n",
-					"file": "sites/all/themes/spyder_byte_design/sass/_team.scss",
-					"file_size": 713,
-					"file_write_time": 1353196507000000,
-					"settings":
-					{
-						"buffer_size": 713,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "sites/all/themes/spyder_byte_design/css/spyder-byte-design-alpha-default-narrow.css",
-					"settings":
-					{
-						"buffer_size": 1249,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "sites/all/themes/spyder_byte_design/js/droplets.js",
+					"file": "sites/all/themes/spyderbytedesign-theme/js/droplets.js",
 					"settings":
 					{
 						"buffer_size": 3718,
@@ -724,21 +714,34 @@
 					}
 				},
 				{
-					"contents": "/* This file will hold styles that are loaded using the same media query as the narrow grid. */\n/* If you are using the default media queries provided by Omega, these styles will also\n *  apply to the normal and widescreen layouts. You may override these styles in the normal \n *  and widescreen CSS files as appropriate. */\n@import \"compass\";\n#page {\n  #page-title {\n    width: 110%;\n    margin-left: -5%;\n  } \n}\n\n.front {\n  #block-views-front-page-drop-block-block {\n    .node-title {\n      width: 128%;\n      margin-left: -14%;\n      @include box-shadow(8px 8px 4px rgba(0,0,0,.5));\n    }\n  }\n  .region-content {\n    .node-title, .block-title {\n      width: 114%;\n      margin-left: -7%;\n    }\n  }\n  .block-title {\n    text-align: center;\n    width: 132%;\n    margin-left: -16%;\n    @include box-shadow(6px 6px 3px rgba(0, 0, 0, 0.5));\n  }\n  \n}",
-					"file": "sites/all/themes/spyder_byte_design/sass/spyder-byte-design-alpha-default-narrow.scss",
-					"file_size": 847,
-					"file_write_time": 1353260743000000,
+					"file": "sites/all/themes/spyderbytedesign-theme/sass/spyder-byte-design-alpha-default.scss",
 					"settings":
 					{
-						"buffer_size": 847,
+						"buffer_size": 8164,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "sites/all/themes/spyder_byte_design/sass/global.scss",
+					"file": "sites/all/themes/spyderbytedesign-theme/sass/global.scss",
 					"settings":
 					{
-						"buffer_size": 5334,
+						"buffer_size": 7839,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/rwagner/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 197,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "sites/all/themes/spyderbytedesign-theme/sass/_team.scss",
+					"settings":
+					{
+						"buffer_size": 713,
 						"line_ending": "Unix"
 					}
 				}
@@ -746,9 +749,41 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 392.0,
+				"height": 54.0,
 				"selected_items":
 				[
+					[
+						"install pa",
+						"Package Control: Install Package"
+					],
+					[
+						"wrap",
+						"Emmet: Wrap With Abbreviation"
+					],
+					[
+						"gdifal",
+						"Git: Diff All"
+					],
+					[
+						"git diff",
+						"Git: Diff Current File"
+					],
+					[
+						"git dif",
+						"Git: Diff Current File"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"remove p",
+						"Package Control: Remove Package"
+					],
+					[
+						"revert",
+						"File: Revert"
+					],
 					[
 						"remove",
 						"Package Control: Remove Package"
@@ -788,10 +823,6 @@
 					[
 						"hookprepro",
 						"Snippet: hook_preprocess"
-					],
-					[
-						"instal",
-						"Package Control: Install Package"
 					],
 					[
 						"install",
@@ -874,7 +905,7 @@
 						"Package Control: Enable Package"
 					]
 				],
-				"width": 529.0
+				"width": 593.0
 			},
 			"console":
 			{
@@ -891,19 +922,35 @@
 			},
 			"file_history":
 			[
+				"/home/rwagner/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/sass/_case-study.scss",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/sass/spyder-byte-design-alpha-default-wide.scss",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/sass/spyder-byte-design-alpha-default-narrow.scss",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/sass/spyder-byte-design-alpha-default-normal.scss",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/css/spyder-byte-design-alpha-default-narrow.css",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/sass/_blog.scss",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/config.rb",
+				"/home/rwagner/Dropbox/web dev/Spyder Byte Design/features/blog_archive1.0.txt",
+				"/home/rwagner/web/spyderbytedesign/sites/all/modules/custom/front page blocks/front_page_blocks.module",
+				"/home/rwagner/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/css/global.css",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/spyderbytedesign-theme.info",
+				"/home/rwagner/web/BACKUP/config.rb",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/template.php",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/spyder_byte_design.info",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/sass/global.scss",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/sass/global.scss",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/sass/spyder-byte-design-alpha-default-narrow.scss",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/sass/_team.scss",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/css/spyder-byte-design-alpha-default-narrow.css",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/js/droplets.js",
 				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/todo.txt",
 				"/home/rwagner/web/spyderbytedesign/sites/all/libraries/masonry/jquery.masonry.min.js",
-				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/js/droplets.js",
 				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/sass/_service.scss",
 				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/thingsineed.txt",
 				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/sass/_case-study.scss",
 				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/js/team_member_saturate.js",
-				"/home/rwagner/web/spyderbytedesign/sites/all/modules/custom/front page blocks/front_page_blocks.module",
-				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/sass/_team.scss",
 				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/spyder_byte_design.info",
-				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/sass/global.scss",
-				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/css/spyder-byte-design-alpha-default-narrow.css",
-				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/sass/spyder-byte-design-alpha-default-narrow.scss",
 				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/templates/node--blog.tpl.php",
 				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/sass/_blog.scss",
 				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/templates/node--1.tpl.php",
@@ -940,7 +987,6 @@
 				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/templates/user-profile--featured-front-block.tpl.php",
 				"/home/rwagner/web/entrefood/sites/all/modules/contrib/superfish/superfish.module",
 				"/home/rwagner/web/entrefood/sites/all/libraries/superfish/supposition.js",
-				"/home/rwagner/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/templates/user-profile.tpl.php",
 				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/_how-to.scss",
 				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/_blog.scss",
@@ -972,6 +1018,12 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"filter",
+					"blog",
+					"text-align",
+					"block-title\n\nblock-title",
+					"text-align: center",
+					"absolute\nabsolute",
 					"$tl_image = render($content['tlimage']);\n$tr_image = render($content['trimage']);",
 					"#process",
 					"$content)",
@@ -1013,68 +1065,12 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "sites/all/themes/spyder_byte_design/sass/_team.scss",
-							"settings":
-							{
-								"buffer_size": 713,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										385,
-										385
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 153.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "sites/all/themes/spyder_byte_design/css/spyder-byte-design-alpha-default-narrow.css",
-							"settings":
-							{
-								"buffer_size": 1249,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										663,
-										663
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/CSS/CSS.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 102.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "sites/all/themes/spyder_byte_design/js/droplets.js",
+							"file": "sites/all/themes/spyderbytedesign-theme/js/droplets.js",
 							"settings":
 							{
 								"buffer_size": 3718,
@@ -1084,8 +1080,8 @@
 								"selection":
 								[
 									[
-										994,
-										994
+										416,
+										416
 									]
 								],
 								"settings":
@@ -1095,7 +1091,35 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 357.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "sites/all/themes/spyderbytedesign-theme/sass/spyder-byte-design-alpha-default.scss",
+							"settings":
+							{
+								"buffer_size": 8164,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										257,
+										257
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -1103,23 +1127,23 @@
 					]
 				},
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
-							"buffer": 3,
-							"file": "sites/all/themes/spyder_byte_design/sass/spyder-byte-design-alpha-default-narrow.scss",
+							"buffer": 2,
+							"file": "sites/all/themes/spyderbytedesign-theme/sass/global.scss",
 							"settings":
 							{
-								"buffer_size": 847,
+								"buffer_size": 7839,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										105,
-										105
+										6342,
+										6342
 									]
 								],
 								"settings":
@@ -1135,28 +1159,52 @@
 							"type": "text"
 						},
 						{
-							"buffer": 4,
-							"file": "sites/all/themes/spyder_byte_design/sass/global.scss",
+							"buffer": 3,
+							"file": "/home/rwagner/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 							"settings":
 							{
-								"buffer_size": 5334,
+								"buffer_size": 197,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										2106,
-										2106
+										68,
+										68
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "sites/all/themes/spyderbytedesign-theme/sass/_team.scss",
+							"settings":
+							{
+								"buffer_size": 713,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										344,
+										344
 									]
 								],
 								"settings":
 								{
 									"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 									"tab_size": 2,
-									"translate_tabs_to_spaces": true,
-									"word_wrap": true,
-									"wrap_width": 80
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -1216,6 +1264,50 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"wide.scs",
+						"spyderbytedesign-theme/sass/spyder-byte-design-alpha-default-wide.scss"
+					],
+					[
+						"normalscss",
+						"spyderbytedesign-theme/sass/spyder-byte-design-alpha-default-normal.scss"
+					],
+					[
+						"narrow.scs",
+						"spyderbytedesign-theme/sass/spyder-byte-design-alpha-default-narrow.scss"
+					],
+					[
+						"narro",
+						"spyderbytedesign-theme/css/spyder-byte-design-alpha-default-narrow.css"
+					],
+					[
+						"",
+						"spyderbytedesign-theme/config.rb"
+					],
+					[
+						"teamsc",
+						"spyderbytedesign-theme/sass/_team.scss"
+					],
+					[
+						"blo",
+						"spyderbytedesign-theme/sass/_blog.scss"
+					],
+					[
+						"blog",
+						"spyderbytedesign-theme/sass/_blog.scss"
+					],
+					[
+						"case",
+						"spyderbytedesign-theme/sass/_case-study.scss"
+					],
+					[
+						"default.scss",
+						"spyderbytedesign-theme/sass/spyder-byte-design-alpha-default.scss"
+					],
+					[
+						"globascs",
+						"spyderbytedesign-theme/sass/global.scss"
+					],
 					[
 						"defaultnarrow.css",
 						"sites/all/themes/spyder_byte_design/css/spyder-byte-design-alpha-default-narrow.css"
@@ -1342,8 +1434,8 @@
 			"show_minimap": false,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 210.0,
+			"side_bar_visible": false,
+			"side_bar_width": 201.0,
 			"status_bar_visible": true,
 			"window_id": 8,
 			"workspace_name": "/home/rwagner/web/spyderbytedesign/spyderbytedesign.sublime-project"

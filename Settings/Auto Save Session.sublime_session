@@ -717,23 +717,26 @@
 					"file": "sites/all/themes/spyderbytedesign-theme/sass/spyder-byte-design-alpha-default.scss",
 					"settings":
 					{
-						"buffer_size": 7780,
+						"buffer_size": 8164,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "sites/all/modules/custom/front page blocks/front_page_blocks.module",
-					"settings":
-					{
-						"buffer_size": 1769,
-						"line_ending": "Unix"
-					}
-				},
-				{
+					"contents": "/* This file will hold styles for the mobile version of your website (mobile first). */\n/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */\n@import \"compass\";\n\n#page {\n  @include background(image-url('bg-blue-texture.png'));\n  font-family: Helvetica,Arial,sans-serif !important;\n  h1, h2, h3, h4, h5, p {\n  font-family: Helvetica,Arial,sans-serif !important;\n  }\n  input {\n    max-width: 100%;\n  }\n  #page-title {\n    @include box-shadow(8px 8px 4px rgba(0,0,0,.5));\n    background-color: rgb(142, 199, 74);\n  }\n  .node-links ul li a, .comment-links ul li a {\n    text-transform: lowercase;\n    display: block;\n    float: inline-block;\n  } \n  #region-branding {\n    position: absolute;\n    top: 0;\n    width: 100%;\n    text-align: center;\n  }\n  #region-header-first {\n    padding-top: 75px;\n    max-width: 100%;\n    margin: 0;\n    margin-left: 0;\n    .logo-img {\n      float: none;\n      text-align: center;\n    }\n  }\n  \n  .site-name {\n    text-align: center;\n    margin-bottom: 10px;\n    a {\n      color: rgb(0, 25, 55);\n      &:hover {\n        color: darken(green, 20%);\n      }\n      &:active {\n        color: lighten(green, 20%);\n      }\n    }\n  }\n  .block {\n    margin-bottom: 20px;\n    .block-title {\n      text-align: center;\n    }\n  }\n\n  #block-views-blog-archive-block, .block-tagclouds {\n    .block-title {\n      text-align: left;\n    }\n\n    a.level6 {\n      color: rgb(142, 199, 74);\n      &:hover {\n        color: darken(rgb(142, 199, 74), 20%);\n      }\n    }\n    a.level5 {\n      color: rgb(122, 189, 89);\n      &:hover {\n        color: darken(rgb(122, 189, 89), 20%);\n      }\n    }\n    a.level4 {\n      color: rgb(87, 172, 115);\n      &:hover {\n        color: darken(rgb(87, 172, 115), 20%);\n      }\n    }\n    a.level3 {\n      color: rgb(50, 153, 142);\n      &:hover {\n        color: darken(rgb(50, 153, 142), 20%);\n      }\n    }\n    a.level2 {\n      color: rgb(17, 137, 166);\n      &:hover {\n        color: darken(rgb(17, 137, 166), 20%);\n      }\n    }\n    a.level1 {\n      color: rgb(0, 128, 178);\n      &:hover {\n        color: darken(rgb(0, 128, 178), 20%);\n      }\n    }\n\n  }\n  .pager li.pager-first a, .pager li.pager-previous a, .pager li.pager-next a, .pager li.pager-last a {\n    width: 60px;\n  }\n\n  #zone-postscript-second-wrapper {\n    @include background(image-url('grass.png'));\n    min-height: 70px;\n  } \n  #zone-footer-wrapper {\n    @include background(image-url('dirt.png') rgb(55,23,6));\n    position: relative;\n    z-index: 2;\n    background-repeat: repeat-x;\n    background-position: bottom;\n    min-height: 168px;\n    padding-top: 20px;\n    .block {\n      \n      .block-title {\n        @include box-shadow(6px 6px 3px rgba(0,0,0,0.5));\n        background-color: rgb(142, 199, 74);\n        width: 100%;\n        margin-bottom: 10px;\n        margin-left: 0;\n      }\n      .content {\n        padding: 10px;\n        color: #FFF;\n        a {\n          color: #FFF;\n          &:hover {\n            color: rgb(142, 199, 74);\n          }\n        } \n      }\n    }\n  }\n}\n#region-menu {\n  .region-menu-inner {\n    line-height: 0;\n  }\n  #main-menu {\n    li {\n      line-height: 1em;\n      background-color: white;\n      border: 4px solid darken(#0082B5, 20%);\n      margin-left: auto;\n      margin-right: auto;\n      width: 90%;\n      display: block;\n      padding: 12px;\n      margin-bottom: 3px;\n      margin-top: 0px;\n      text-align: center;\n      border-radius: 30px;\n      font-size: 120%;\n      a {\n        text-decoration: none;\n        padding: 12px 35%;\n        color: #0082B5;\n      }\n    }\n  }\n}\n\n.node-title {\n  background-color: rgb(93, 44, 15);\n  a {\n    color: white;\n    &:visited {\n      color: white;\n    }\n    &:hover {\n      color: rgb(142, 199, 74);\n    }\n  }\n}\n\n.node-title, #page-title {\n  text-align: center;\n  a {\n    text-align: center;\n    text-decoration: none;\n  }\n}\n\n.front {\n  .node-title, .block-title {\n    background-color: rgb(142, 199, 74);\n    border-bottom: none !important;\n    a {\n      color: black;\n      &:visited {\n        color: black;\n      }\n      &:hover {\n        color: rgb(93, 44, 15);\n      }\n    }\n  }\n  .region-preface-second-inner {\n    display: none;\n  }\n  .views-row {\n    border-bottom: 4px solid #044A75;\n    margin-bottom: 30px;\n    padding-bottom: 10px;\n    &.views-row-last {\n      border-bottom: none;\n    }\n  }\n}\n\n.region-preface-first-inner, .region-preface-second-inner, .region-preface-third-inner,  .region-content-inner, .region-postscript-first-inner, .region-postscript-second-inner, .region-postscript-third-inner, .region-sidebar-second .block, .region-sidebar-first .block\n{\n  padding: 5px 15px;\n  background-color: white;\n  border-radius: 12px 12px 12px 12px;\n  border: 10px solid rgb(4, 74, 117);\n  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);\n  margin-bottom: 20px;\n\n  .block {\n    margin-bottom: 20px;\n  }\n  .block-title {\n    border-bottom: 2px solid black;\n    margin-bottom: 10px;\n  }\n}\n\n.region-preface-first-inner, .region-preface-second-inner, .region-preface-third-inner, .region-postscript-first-inner, .region-postscript-second-inner, .region-postscript-third-inner \n{\n  margin: 20px 0;\n}\n\n// Actual Service node page.\n.node-service-page {\n  .field-name-field-image {\n    float: left;\n    margin: 5px 10px;\n  }\n}\n//Services view\n.view-services {\n  .views-row {\n    width: 98%;\n    margin: 10px 1%;\n    float: left;\n    .field-name-field-image {\n      float: left;\n      margin: 5px 10px;\n    }\n    .links {\n      float: right;\n    }\n  }\n}\n\n\n\n//Contact form, though will apply to any webforms.\n.node-webform {\n  font-size: 110%;  \n}\n\n//Blog content type styling\n.node-blog {\n  img {\n    max-width: 100%;\n    height: auto;\n  }\n\n  #upper, #middle, #bottom {\n    clear: both;\n  }\n\n  .field-name-field-top-left-image, .field-name-field-middle-left-image, .field-name-field-bottom-left-image {\n    float: left;\n    max-width: 20%;\n    margin: 10px;\n  }\n\n  .field-name-body, .field-name-field-middle-content, .field-name-field-bottom-content {\n    padding-top: 10px;\n  }\n\n  .field-name-field-top-right-image, .field-name-field-middle-right-image, .field-name-field-bottom-right-image {\n    float: right;\n    max-width: 20%;\n    margin: 10px;\n  }\n  .field-name-field-blog-tags {\n    font-size: 110%;\n    margin: 20px 0 10px;\n    .field-label {\n      margin-right: 5px;\n    }\n    a {\n      margin-right: 8px;\n    }\n  }\n}\n\n.node-blog .node-teaser {\n  margin-bottom: 20px;\n}\n\n//Portfolio Styling\n\n.page-portfolio {\n  #page-title {\n    display: none;\n  }\n  .region-content-inner {\n    border: none;\n    background-color: transparent;\n    @include box-shadow(none);\n  }\n}\n\n.view-portfolio {\n  .views-row {\n    padding: 7px 7px 9px 7px;\n    background-color: #033452;\n  }\n  .views-field-field-screenshot {\n    @include box-shadow(5px 5px 2px rgba(0,0,0, 0.5));\n    background-color: rgb(250, 250, 250);\n    padding-top: 5px;\n    padding-right: 12px;\n    padding-bottom: 5px;\n    padding-left: 5px;\n    \n    img {\n      max-width: 100%;\n      height: auto;\n      @include box-shadow(7px 7px 4px rgba(0,0,0, 0.5));\n    }\n  }\n  .views-field-title {\n    @include box-shadow(5px 5px 2px rgba(0,0,0, 0.5));\n    // border-left: 1px solid black;\n    // border-bottom: 1px solid black;\n    // border-right: 1px solid black;\n\n    //margin-bottom: 8px;\n    padding: 5px 5px;\n    background-color: rgb(250, 250, 250);\n    line-height: 1.2em;\n    .field-content {\n      line-height: 1.2em;\n      margin-bottom: 0;\n    }\n    a {\n      text-decoration: none;\n      text-transform: lowercase;\n      color: rgb(142, 199, 74);\n      &:hover {\n        color: rgb(93, 44, 15);\n      }\n    }\n  }\n}\n\n// Case study styling\n.page-node .node-case-study {\n  .field {\n    margin-bottom: 15px;\n  }\n  .field-name-field-screenshot {\n    max-width: 100%;\n    img {\n      max-width: 100%;\n      height: auto;\n    }\n  }\n  .field-name-field-website {\n    font-size: 150%;\n  }\n}\n\n@import 'team';",
 					"file": "sites/all/themes/spyderbytedesign-theme/sass/global.scss",
+					"file_size": 8032,
+					"file_write_time": 1353444462000000,
 					"settings":
 					{
-						"buffer_size": 6299,
+						"buffer_size": 7973,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "sites/all/themes/spyderbytedesign-theme/sass/_team.scss",
+					"settings":
+					{
+						"buffer_size": 713,
 						"line_ending": "Unix"
 					}
 				}
@@ -741,9 +744,41 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 392.0,
+				"height": 54.0,
 				"selected_items":
 				[
+					[
+						"install pa",
+						"Package Control: Install Package"
+					],
+					[
+						"wrap",
+						"Emmet: Wrap With Abbreviation"
+					],
+					[
+						"gdifal",
+						"Git: Diff All"
+					],
+					[
+						"git diff",
+						"Git: Diff Current File"
+					],
+					[
+						"git dif",
+						"Git: Diff Current File"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"remove p",
+						"Package Control: Remove Package"
+					],
+					[
+						"revert",
+						"File: Revert"
+					],
 					[
 						"remove",
 						"Package Control: Remove Package"
@@ -783,10 +818,6 @@
 					[
 						"hookprepro",
 						"Snippet: hook_preprocess"
-					],
-					[
-						"instal",
-						"Package Control: Install Package"
 					],
 					[
 						"install",
@@ -886,6 +917,18 @@
 			},
 			"file_history":
 			[
+				"/home/rwagner/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/rwagner/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/sass/_case-study.scss",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/sass/spyder-byte-design-alpha-default-wide.scss",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/sass/spyder-byte-design-alpha-default-narrow.scss",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/sass/spyder-byte-design-alpha-default-normal.scss",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/css/spyder-byte-design-alpha-default-narrow.css",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/sass/_blog.scss",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/config.rb",
+				"/home/rwagner/Dropbox/web dev/Spyder Byte Design/features/blog_archive1.0.txt",
+				"/home/rwagner/web/spyderbytedesign/sites/all/modules/custom/front page blocks/front_page_blocks.module",
+				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/css/global.css",
 				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/spyderbytedesign-theme.info",
 				"/home/rwagner/web/BACKUP/config.rb",
 				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyderbytedesign-theme/template.php",
@@ -902,7 +945,6 @@
 				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/thingsineed.txt",
 				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/sass/_case-study.scss",
 				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/js/team_member_saturate.js",
-				"/home/rwagner/web/spyderbytedesign/sites/all/modules/custom/front page blocks/front_page_blocks.module",
 				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/spyder_byte_design.info",
 				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/templates/node--blog.tpl.php",
 				"/home/rwagner/web/spyderbytedesign/sites/all/themes/spyder_byte_design/sass/_blog.scss",
@@ -940,7 +982,6 @@
 				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/templates/user-profile--featured-front-block.tpl.php",
 				"/home/rwagner/web/entrefood/sites/all/modules/contrib/superfish/superfish.module",
 				"/home/rwagner/web/entrefood/sites/all/libraries/superfish/supposition.js",
-				"/home/rwagner/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/templates/user-profile.tpl.php",
 				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/_how-to.scss",
 				"/home/rwagner/web/entrefood/sites/all/themes/foodishi/sass/_blog.scss",
@@ -972,6 +1013,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"filter",
+					"blog",
 					"text-align",
 					"block-title\n\nblock-title",
 					"text-align: center",
@@ -1017,7 +1060,7 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 0,
 					"sheets":
 					[
 						{
@@ -1032,8 +1075,8 @@
 								"selection":
 								[
 									[
-										526,
-										526
+										416,
+										416
 									]
 								],
 								"settings":
@@ -1053,15 +1096,15 @@
 							"file": "sites/all/themes/spyderbytedesign-theme/sass/spyder-byte-design-alpha-default.scss",
 							"settings":
 							{
-								"buffer_size": 7780,
+								"buffer_size": 8164,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										613,
-										613
+										257,
+										257
 									]
 								],
 								"settings":
@@ -1079,51 +1122,23 @@
 					]
 				},
 				{
-					"selected": 1,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 2,
-							"file": "sites/all/modules/custom/front page blocks/front_page_blocks.module",
-							"settings":
-							{
-								"buffer_size": 1769,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1087,
-										1087
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/HTML/HTML.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 663.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 3,
 							"file": "sites/all/themes/spyderbytedesign-theme/sass/global.scss",
 							"settings":
 							{
-								"buffer_size": 6299,
+								"buffer_size": 7973,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1269,
-										1269
+										6781,
+										6781
 									]
 								],
 								"settings":
@@ -1133,7 +1148,35 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 459.0,
+								"translation.y": 5566.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "sites/all/themes/spyderbytedesign-theme/sass/_team.scss",
+							"settings":
+							{
+								"buffer_size": 713,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										344,
+										344
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -1190,6 +1233,42 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"wide.scs",
+						"spyderbytedesign-theme/sass/spyder-byte-design-alpha-default-wide.scss"
+					],
+					[
+						"normalscss",
+						"spyderbytedesign-theme/sass/spyder-byte-design-alpha-default-normal.scss"
+					],
+					[
+						"narrow.scs",
+						"spyderbytedesign-theme/sass/spyder-byte-design-alpha-default-narrow.scss"
+					],
+					[
+						"narro",
+						"spyderbytedesign-theme/css/spyder-byte-design-alpha-default-narrow.css"
+					],
+					[
+						"",
+						"spyderbytedesign-theme/config.rb"
+					],
+					[
+						"teamsc",
+						"spyderbytedesign-theme/sass/_team.scss"
+					],
+					[
+						"blo",
+						"spyderbytedesign-theme/sass/_blog.scss"
+					],
+					[
+						"blog",
+						"spyderbytedesign-theme/sass/_blog.scss"
+					],
+					[
+						"case",
+						"spyderbytedesign-theme/sass/_case-study.scss"
+					],
 					[
 						"default.scss",
 						"spyderbytedesign-theme/sass/spyder-byte-design-alpha-default.scss"
